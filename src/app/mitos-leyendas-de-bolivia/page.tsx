@@ -33,7 +33,7 @@ export default function MitosLeyendasPage({ searchParams }: {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-slate-800 text-center mb-2">Mitos y Leyendas de Bolivia</h1>
+      <h1 className="text-3xl font-bold text-slate-800 text-center mb-2">Leyendas y Mitos de Bolivia</h1>
       <p className="text-center mb-6">Descubre las historias que dan vida a la cultura boliviana</p>
       <div className="grid grid-cols-1 md:grid-cols-[350px_1fr] gap-6">
         <Card className="h-fit">

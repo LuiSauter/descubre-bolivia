@@ -39,10 +39,13 @@ export default function Fechas({ searchParams }: {
             <CardDescription>Elige un departamento para ver sus fechas cívicas</CardDescription>
           </CardHeader>
           <CardContent>
-            <Select onValueChange={(value) => {
-              setDepartamentoSeleccionado(value)
-              router.push(`${pathname}?${createQueryString("region", value)}`)
-            }} defaultValue={departamentoSeleccionado}>
+            <Select
+              onValueChange={(value) => {
+                setDepartamentoSeleccionado(value);
+                router.push(`${pathname}?${createQueryString("region", value)}`);
+              }}
+              defaultValue={departamentoSeleccionado}
+            >
               <SelectTrigger className="w-full">
                 <SelectValue placeholder="Selecciona un departamento" />
               </SelectTrigger>
@@ -64,11 +67,14 @@ export default function Fechas({ searchParams }: {
           <CardContent>
             {fechasCivicas[departamentoSeleccionado]?.length ? (
               fechasCivicas[departamentoSeleccionado].map((fecha, index: number) => (
-                <div id={fecha.descripcion} key={index} className="mb-4 p-4 bg-secondary rounded-lg">
-                  <div className="flex flex-row gap-2 items-center">
+                <div id={fecha.titulo} key={index} className="mb-4 p-4 bg-secondary rounded-lg">
+                  <div className="flex flex-row gap-2 items-center text-slate-800">
                     <Calendar size={24} className="mb-2" />
-                    <Badge variant="outline" className="mb-2">{fecha.fecha}</Badge>
+                    <Badge variant="outline" className="mb-2">
+                      {fecha.fecha}
+                    </Badge>
                   </div>
+                  <h3 className="font-bold text-slate-800">{fecha.titulo}</h3>
                   <p>{fecha.descripcion}</p>
                 </div>
               ))
