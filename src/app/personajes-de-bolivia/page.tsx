@@ -1,8 +1,9 @@
-"use client";
+'use client';
 import { useCallback, useEffect, useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import Image from "next/image";
 import { departamentosArr, personajesRelevantes } from "@/assets/data";
 import { usePathname, useRouter } from "next/navigation";
 
@@ -71,7 +72,16 @@ export default function PersonajesRelevantesPage({ searchParams }: { searchParam
                 </CardTitle>
                 <CardDescription>{personaje.descripcion}</CardDescription>
               </CardHeader>
-              <CardContent className="p-0 m-0">{/* Puedes añadir una imagen relevante del personaje si tienes */}</CardContent>
+              <CardContent className="p-0 m-0">
+                {/* Añadir la imagen del personaje */}
+                <Image
+                  src={personaje.imagen}
+                  alt={personaje.nombre}
+                  width={300}
+                  height={300}
+                  className="w-full h-[300px] object-cover"
+                />
+              </CardContent>
             </Card>
           ))}
         </div>
