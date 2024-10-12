@@ -278,135 +278,135 @@ export const personajesRelevantes: PersonajesRelevantes = {
   "La Paz": [
     {
       nombre: "Pedro Domingo Murillo",
-      descripcion: "Líder de la Revolución de La Paz en 1809, considerado uno de los precursores de la independencia de Bolivia. Fue ejecutado por las fuerzas realistas, pero su lucha inspiró a generaciones.",
+      descripcion: "Pedro Domingo Murillo fue uno de los grandes líderes de la Revolución de La Paz en 1809, un precursor clave de la independencia de Bolivia. Su llamado a la libertad contra el dominio español culminó en la organización del Primer Grito Libertario en América Latina. Aunque fue ejecutado por las fuerzas realistas en 1810, su sacrificio se convirtió en un símbolo de la lucha por la independencia. Su figura inspiró a generaciones posteriores, y su legado es celebrado en la ciudad de La Paz, donde una de sus principales plazas lleva su nombre.",
       imagen: "/characters/murillo.webp"
     },
     {
       nombre: "Bartolina Sisa",
-      descripcion: "Heroína indígena que luchó contra la opresión española durante las rebeliones indígenas de 1781. Fue una de las figuras más destacadas de la resistencia aymara.",
+      descripcion: "Bartolina Sisa fue una heroína indígena aymara que, junto con su esposo Túpac Katari, lideró la resistencia contra la opresión colonial española durante el levantamiento indígena de 1781. Durante meses, cercaron la ciudad de La Paz, luchando por la liberación de su pueblo de la explotación y el maltrato colonial. Capturada y ejecutada brutalmente por los españoles, su legado ha perdurado como un símbolo de la resistencia indígena en Bolivia. En su honor, se celebra el Día Internacional de la Mujer Indígena cada 5 de septiembre.",
       imagen: "/characters/bartolina_sisa.webp"
     },
     {
       nombre: "Ismael Montes",
-      descripcion: "Militar y político boliviano que fue presidente en dos ocasiones. Durante su mandato, se consolidó la infraestructura del país, y es recordado como uno de los grandes estadistas de Bolivia.",
+      descripcion: "Ismael Montes fue un destacado militar y político boliviano que sirvió como presidente de Bolivia en dos ocasiones (1904-1909 y 1913-1917). Durante su mandato, consolidó importantes reformas como la creación del sistema ferroviario que conectó el país y modernizó la infraestructura. Fue una figura clave en la consolidación del estado boliviano tras la Guerra del Pacífico, firmando el Tratado de Paz con Chile en 1904. Su visión y liderazgo lo posicionan como uno de los grandes estadistas en la historia boliviana.",
       imagen: "/characters/ismael_montes.webp"
     },
     {
       nombre: "Carlos Palenque",
-      descripcion: "Músico, presentador de televisión y político conocido por su labor en la defensa de los sectores populares. Fue una figura emblemática en la política de los años 80 y 90.",
+      descripcion: "Carlos Palenque fue un carismático músico, presentador de televisión y político que se destacó por su defensa de los derechos de los sectores populares en Bolivia. En los años 80 y 90, su programa televisivo 'La Tribuna Libre del Pueblo' fue un espacio donde los ciudadanos más marginados podían expresar sus problemas y necesidades. Su enfoque populista y su compromiso con las clases trabajadoras lo convirtieron en una figura política emblemática, especialmente en La Paz, donde fundó el partido Conciencia de Patria (CONDEPA).",
       imagen: "/characters/carlos_palenque.webp"
     },
     {
       nombre: "Simón I. Patiño",
-      descripcion: "Uno de los empresarios más ricos del mundo en su época, conocido como el 'Rey del Estaño'. Jugó un papel importante en la economía de Bolivia durante la primera mitad del siglo XX.",
+      descripcion: "Simón I. Patiño, conocido como el 'Rey del Estaño', fue uno de los empresarios más ricos y poderosos del mundo a comienzos del siglo XX. A través de su imperio minero, controló una gran parte de la producción mundial de estaño, un mineral crucial para la industria de la época. Patiño jugó un papel central en la economía boliviana, y su fortuna personal lo convirtió en una figura influyente no solo en Bolivia, sino también a nivel internacional. Sus contribuciones a la infraestructura del país, así como su influencia en la política, lo hacen una de las figuras más importantes de la historia económica de Bolivia.",
       imagen: "/characters/simon_patiño.webp"
     }
   ],
   "Santa Cruz": [
     {
       nombre: "Ñuflo de Chávez",
-      descripcion: "Conquistador español y fundador de Santa Cruz de la Sierra en 1561. Jugó un papel crucial en la expansión y colonización de la región oriental de Bolivia.",
+      descripcion: "Ñuflo de Chávez fue un conquistador español que fundó la ciudad de Santa Cruz de la Sierra en 1561. Su exploración y colonización de las tierras orientales de Bolivia establecieron las bases para el desarrollo de la región. Durante su vida, enfrentó tanto la resistencia de los pueblos indígenas como las luchas internas dentro de la administración colonial española. Su legado perdura como uno de los fundadores de la región cruceña, que hoy es una de las más prósperas del país.",
       imagen: "/characters/nuflo_chavez.webp"
     },
     {
       nombre: "Andrés Ibáñez",
-      descripcion: "Líder cruceño y revolucionario que luchó por la autonomía regional y los derechos de los campesinos en el siglo XIX. Fue ejecutado en 1877 por sus ideales federalistas.",
+      descripcion: "Andrés Ibáñez fue un líder cruceño del siglo XIX que se destacó por su lucha en favor de la autonomía regional y los derechos de los campesinos. Fundador del movimiento federalista en Bolivia, su ideal de descentralización buscaba una mayor justicia social y una distribución equitativa de los recursos en las regiones. Sin embargo, su lucha fue vista como una amenaza para el gobierno central y fue ejecutado en 1877. Su legado inspira a los movimientos autonomistas contemporáneos en Santa Cruz.",
       imagen: "/characters/andres_ibanez.webp"
     },
     {
       nombre: "Cañoto",
-      descripcion: "Personaje mítico y héroe popular cruceño, conocido por su valentía y astucia en la lucha por la independencia de Bolivia. Su figura ha sido inmortalizada en canciones y relatos populares.",
+      descripcion: "Cañoto es una figura legendaria y heroica en Santa Cruz. Aunque es difícil distinguir entre los hechos históricos y los relatos populares, se le recuerda como un valiente luchador que se unió a las fuerzas que buscaban la independencia de Bolivia. Su nombre ha sido inmortalizado en canciones y leyendas locales, convirtiéndose en un símbolo del coraje cruceño. Se dice que su destreza con la guitarra y su valentía en la batalla le ganaron un lugar especial en la historia oral de la región.",
       imagen: "/characters/cañoto.webp"
     },
     {
       nombre: "Melchor Pinto Parada",
-      descripcion: "Médico y político cruceño, defensor de los derechos cívicos y de la autonomía de Santa Cruz. Fue una figura clave en la lucha por el desarrollo regional en la segunda mitad del siglo XX.",
+      descripcion: "Melchor Pinto Parada fue un médico y político que se convirtió en un defensor incansable de los derechos cívicos y la autonomía regional de Santa Cruz. En la década de 1950, lideró movimientos que buscaban la descentralización y el desarrollo de Santa Cruz, luchando por mejorar la infraestructura y la economía de la región. Su liderazgo y su compromiso con el bienestar de su pueblo lo hicieron una figura clave en el desarrollo de la región cruceña en la segunda mitad del siglo XX.",
       imagen: "/characters/melchor_pinto.webp"
     },
     {
       nombre: "Ernesto Suárez Sattori",
-      descripcion: "Político y exgobernador del departamento de Santa Cruz. Conocido por su liderazgo en el proceso autonómico cruceño y su influencia en la política boliviana contemporánea.",
+      descripcion: "Ernesto Suárez Sattori es un político contemporáneo que fue gobernador del departamento de Santa Cruz. Conocido por su defensa de la autonomía cruceña, jugó un papel crucial en el proceso autonómico que marcó la política boliviana en las primeras décadas del siglo XXI. Suárez se destacó por su habilidad para unir a diversas facciones políticas y sociales en torno a la demanda de mayores competencias para los gobiernos departamentales, siendo una figura influyente en la política nacional.",
       imagen: "/characters/ernesto_suarez.webp"
     }
   ],
   "Cochabamba": [
     {
       nombre: "Manuel Ascencio Villarroel",
-      descripcion: "Militar y caudillo de la independencia boliviana que participó en las guerras de liberación en el valle de Cochabamba. Fue uno de los héroes locales de la guerra de independencia.",
+      descripcion: "Manuel Ascencio Villarroel fue un militar boliviano que participó activamente en las guerras de independencia en el valle de Cochabamba. Conocido por su valentía, fue uno de los líderes de la resistencia contra las fuerzas realistas, destacándose en la defensa de su región. Su participación en la guerra lo convirtió en un héroe local, y su figura es recordada como un símbolo de la lucha por la libertad en Cochabamba.",
       imagen: "/characters/manuel_villarroel.webp"
     },
     {
       nombre: "Esteban Arce",
-      descripcion: "Héroe de la independencia de Bolivia y líder de la guerrilla en Cochabamba. Jugó un papel crucial en la resistencia contra las fuerzas realistas en la región.",
+      descripcion: "Esteban Arce fue un líder guerrillero que desempeñó un papel fundamental en la lucha por la independencia de Bolivia. En Cochabamba, organizó y comandó las fuerzas locales contra las tropas realistas, y sus acciones ayudaron a consolidar la resistencia en el valle. Su liderazgo militar y su compromiso con la causa independentista lo posicionan como uno de los héroes más importantes de la región.",
       imagen: "/characters/esteban_arce.webp"
     },
     {
       nombre: "Tunupa",
-      descripcion: "Figura mitológica andina, venerado como un dios del trueno y los volcanes. Su leyenda está profundamente arraigada en la cosmovisión andina y es particularmente importante en Cochabamba.",
+      descripcion: "Tunupa es una figura mitológica de la cosmovisión andina, asociado con el trueno, los volcanes y los fenómenos naturales. Aunque no se trata de una figura histórica, su importancia cultural en la región de Cochabamba es inmensa. Tunupa es venerado como un dios en la tradición indígena, y su leyenda ha sido transmitida a través de generaciones. Su presencia en la mitología andina subraya la profunda conexión entre el pueblo andino y la naturaleza.",
       imagen: "/characters/tunupa.webp"
     },
     {
       nombre: "Martina Melgar",
-      descripcion: "Heroína cochabambina que participó en la Revolución de las Heroínas de la Coronilla. Su sacrificio es recordado como un símbolo de la resistencia popular en Cochabamba.",
+      descripcion: "Martina Melgar fue una de las valientes mujeres que participaron en la Revolución de las Heroínas de la Coronilla en 1812, una revuelta liderada por mujeres de Cochabamba contra las fuerzas españolas. Aunque mal armadas, las heroínas se defendieron hasta el final, y muchas, incluida Martina Melgar, murieron en combate. Su sacrificio es recordado como un ejemplo de la resistencia popular y el coraje de las mujeres bolivianas en la lucha por la independencia.",
       imagen: "/characters/martina_melgar.webp"
     },
     {
       nombre: "Adela Zamudio",
-      descripcion: "Poeta y escritora feminista, una de las figuras más influyentes de la literatura boliviana. Su obra promovió los derechos de las mujeres y la igualdad social.",
+      descripcion: "Adela Zamudio fue una poeta, escritora y maestra boliviana que se destacó como una de las primeras voces feministas en el país. A lo largo de su vida, Zamudio escribió obras que criticaban la desigualdad de género y promovían la educación de las mujeres. Su poema 'Nacer Hombre' es emblemático de su lucha por los derechos de la mujer. Hasta el día de hoy, su obra sigue siendo fundamental en la literatura boliviana y en la promoción de la igualdad de género.",
       imagen: "/characters/adela_zamudio.webp"
     }
   ],
   "Potosí": [
     {
       nombre: "Juana Azurduy de Padilla",
-      descripcion: "Heroína de la independencia que lideró tropas en la lucha contra el imperio español. Su valentía y liderazgo son recordados como un ejemplo de lucha por la libertad.",
+      descripcion: "Juana Azurduy de Padilla fue una valiente guerrillera que luchó por la independencia de Bolivia y otras regiones del Alto Perú. Junto a su esposo, Manuel Ascencio Padilla, organizó y lideró tropas contra las fuerzas españolas, destacándose por su habilidad táctica y su valentía en el campo de batalla. Azurduy es recordada como una de las heroínas más grandes de la independencia latinoamericana, y su imagen es un símbolo de la lucha por la libertad y los derechos de las mujeres.",
       imagen: "/characters/juana_azurduy.webp"
     },
     {
       nombre: "Tomás Katari",
-      descripcion: "Líder indígena potosino que luchó contra las injusticias coloniales y los abusos en el sistema de repartimiento. Su resistencia inspiró a muchos otros líderes indígenas.",
+      descripcion: "Tomás Katari fue un líder indígena que luchó por los derechos de su pueblo frente a las injusticias del sistema colonial español en el Alto Perú. Originario de Potosí, Katari se destacó por su resistencia al sistema de repartimiento y los abusos cometidos contra las comunidades indígenas. Su liderazgo inspiró a otros líderes indígenas, como Túpac Katari, y su lucha es vista como un antecedente de los movimientos indígenas en Bolivia.",
       imagen: "/characters/tomas_katari.webp"
     },
     {
       nombre: "Diego Huallpa",
-      descripcion: "Descubridor de la famosa mina de Potosí en el Cerro Rico. Su hallazgo marcó el inicio de una de las mayores explotaciones mineras de la historia mundial.",
+      descripcion: "Diego Huallpa fue el indígena que, según la leyenda, descubrió la mina de Potosí en el Cerro Rico en el siglo XVI. Este descubrimiento transformó la ciudad en uno de los centros mineros más importantes del mundo, convirtiendo a Potosí en una fuente de riqueza para la corona española. Aunque la vida de Huallpa no está bien documentada, su hallazgo fue fundamental para la historia económica de Bolivia y el mundo.",
       imagen: "/characters/diego_huallpa.webp"
     },
     {
       nombre: "Sebastián Pagador",
-      descripcion: "Líder del levantamiento potosino de 1810, uno de los primeros en rebelarse contra las autoridades españolas en la región. Su acción fue clave para la independencia de Potosí.",
+      descripcion: "Sebastián Pagador fue un líder del levantamiento independentista en Potosí en 1810, uno de los primeros movimientos revolucionarios en la región. Su rebelión fue una de las primeras en desafiar abiertamente el dominio español en Bolivia, y su valentía influyó en futuros movimientos independentistas. Su figura es recordada como un símbolo del coraje y la determinación de los potosinos en la lucha por la libertad.",
       imagen: "/characters/sebastian_pagador.webp"
     },
     {
       nombre: "Gregoria Apaza",
-      descripcion: "Hermana de Túpac Katari y líder indígena en las rebeliones contra el dominio español. Jugó un papel clave en la lucha por la liberación del pueblo aymara.",
+      descripcion: "Gregoria Apaza fue una líder indígena y hermana de Túpac Katari, quien jugó un papel crucial en las rebeliones indígenas contra el dominio español en el siglo XVIII. Al igual que su hermano, Gregoria fue una líder estratégica y participó en el sitio de La Paz en 1781. Su valentía y sacrificio la han convertido en una figura fundamental en la historia de la resistencia indígena en Bolivia.",
       imagen: "/characters/gregoria_apaza.webp"
     }
   ],
   "Chuquisaca": [
     {
       nombre: "Juana Azurduy de Padilla",
-      descripcion: "Originaria de Chuquisaca, esta heroína de la independencia jugó un papel fundamental en la lucha contra las fuerzas coloniales, liderando ejércitos guerrilleros.",
+      descripcion: "Juana Azurduy de Padilla, nacida en Chuquisaca, fue una de las figuras más destacadas de la independencia del Alto Perú. Su participación en la guerra, liderando tropas guerrilleras y combatiendo al lado de su esposo Manuel Ascencio Padilla, la convirtió en un símbolo de la lucha por la libertad en América Latina. Recibió el rango de Teniente Coronel por su valentía y es recordada como una de las heroínas más importantes de la historia de Bolivia.",
       imagen: "/characters/juana_azurduy.webp"
     },
     {
       nombre: "Antonio José de Sucre",
-      descripcion: "General venezolano y Gran Mariscal de Ayacucho, fue el primer presidente de Bolivia y es uno de los padres fundadores de la nación. Sucre es recordado como un líder clave en la independencia de América del Sur.",
+      descripcion: "Antonio José de Sucre fue uno de los principales líderes militares de la independencia sudamericana, y el primer presidente de Bolivia. Como Gran Mariscal de Ayacucho, Sucre fue decisivo en la victoria de la Batalla de Ayacucho en 1824, que selló la independencia de Perú y consolidó la emancipación de América del Sur. Su presidencia en Bolivia marcó el inicio de la república, y su influencia es reconocida en toda América Latina.",
       imagen: "/characters/antonio_sucre.webp"
     },
     {
       nombre: "José Mariano Serrano",
-      descripcion: "Abogado y político boliviano, fue uno de los redactores del Acta de la Independencia de Bolivia. Su contribución legal fue fundamental para el establecimiento del nuevo estado boliviano.",
+      descripcion: "José Mariano Serrano fue un abogado y político boliviano, conocido por ser uno de los redactores del Acta de la Independencia de Bolivia en 1825. Su formación jurídica y su compromiso con los ideales republicanos lo convirtieron en una figura influyente durante los primeros años de la república. Serrano jugó un papel crucial en la creación de las bases legales del nuevo estado boliviano.",
       imagen: "/characters/jose_serrano.webp"
     },
     {
       nombre: "Tomás Frías",
-      descripcion: "Político y ex presidente boliviano, originario de Chuquisaca. Se destacó por su honestidad y trabajo en la modernización del país durante sus dos mandatos.",
+      descripcion: "Tomás Frías fue un político boliviano que ocupó la presidencia del país en dos ocasiones durante el siglo XIX. Su mandato se destacó por su enfoque en la honestidad, la educación y la modernización del estado. Fue uno de los presidentes más íntegros de la historia boliviana, y su legado incluye importantes reformas educativas y económicas.",
       imagen: "/characters/tomas_frias.webp"
     },
     {
       nombre: "Bernardo Monteagudo",
-      descripcion: "Político y revolucionario argentino-boliviano que jugó un papel clave en las luchas independentistas en el Alto Perú. Fue uno de los ideólogos detrás de la independencia de Bolivia.",
+      descripcion: "Bernardo Monteagudo fue un político y revolucionario nacido en Argentina que desempeñó un papel clave en las luchas independentistas del Alto Perú (actual Bolivia). Su participación en las guerras de independencia y su rol como ideólogo lo convirtieron en una figura influyente. Fue uno de los principales redactores de la constitución boliviana y su trabajo sentó las bases del sistema político del país.",
       imagen: "/characters/bernardo_monteagudo.webp"
     }
   ]
