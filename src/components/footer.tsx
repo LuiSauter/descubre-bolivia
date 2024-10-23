@@ -9,7 +9,7 @@ const Footer = () => {
           Descubre Bolivia
         </Link>
       </div>
-      <div>
+      <div className="opacity-0">
         Desarrollado por <a href="https://sauterdev.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-semibold" aria-label="Luis Gabriel Janco" aria-hidden="false" aria-roledescription="Desarrollador Web" aria-describedby="Luis Gabriel Janco"
         >Luis Gabriel Janco</a>
       </div>
