@@ -148,6 +148,131 @@ export const fechasCivicas: FechasCivicas = {
       titulo: "Fiesta de la Virgen de la Concepción",
       descripcion: "Fiesta religiosa en honor a la Virgen de la Concepción, celebrada con fervor en Potosí. Se realizan procesiones, misas y otras actividades religiosas."
     }
+  ],
+  "Chuquisaca": [
+    {
+      fecha: "1 de abril",
+      titulo: "Fundación de Sucre",
+      descripcion: "Fundada el 1 de abril de 1538, Sucre es una de las ciudades más antiguas de Bolivia y su capital histórica."
+    },
+    {
+      fecha: "25 de mayo de 1809",
+      titulo: "Primer Grito Libertario de América",
+      descripcion: "Conmemora el primer levantamiento independentista en América Latina, cuando los ciudadanos de Chuquisaca se rebelaron contra el dominio colonial español."
+    },
+    {
+      fecha: "20 de diciembre de 1828",
+      titulo: "Batalla de La Tablada",
+      descripcion: "Celebración de la victoria de las tropas republicanas sobre las fuerzas peruanas, consolidando la estabilidad de la república boliviana."
+    },
+  ],
+  "Oruro": [
+    {
+      fecha: "10 de febrero de 1781",
+      titulo: "Sublevación de los Indios en Oruro",
+      descripcion: "Esta fecha conmemora el levantamiento indígena y mestizo en la ciudad de Oruro contra el dominio español, un movimiento precursor a las luchas por la independencia."
+    },
+    {
+      fecha: "Movible",
+      titulo: "Carnaval de Oruro",
+      descripcion: "Patrimonio Oral e Intangible de la Humanidad, el Carnaval de Oruro es uno de los eventos culturales más importantes de Bolivia."
+    },
+    {
+      fecha: "16 de julio",
+      titulo: "Fiesta de la Virgen del Carmen",
+      descripcion: "Celebración religiosa en honor a la Virgen del Carmen, patrona de Oruro, con misas y procesiones."
+    },
+    {
+      fecha: "1 de noviembre de 1606",
+      titulo: "Fundación de Oruro",
+      descripcion: "Oruro fue fundada el 1 de noviembre de 1606 debido al auge minero en la región, siendo una importante ciudad colonial."
+    },
+    {
+      fecha: "2 de noviembre",
+      titulo: "Día de los Difuntos y Todos Santos",
+      descripcion: "Festividad de gran importancia cultural y religiosa, donde se honra a los seres queridos fallecidos con ofrendas y rituales."
+    },
+  ],
+  "Tarija": [
+    {
+      fecha: "15 de abril de 1817",
+      titulo: "Batalla de La Tablada",
+      descripcion: "Celebración de la victoria de los patriotas tarijeños sobre las fuerzas realistas, un símbolo de la lucha por la independencia en Tarija."
+    },
+    {
+      fecha: "4 de julio de 1574",
+      titulo: "Fundación de Tarija",
+      descripcion: "La ciudad de Tarija fue fundada el 4 de julio de 1574 por Luis de Fuentes y Vargas, una ciudad estratégica en la época colonial."
+    },
+    {
+      fecha: "8 de septiembre",
+      titulo: "Fiesta de la Virgen de Chaguaya",
+      descripcion: "Festividad religiosa en honor a la Virgen de Chaguaya, que incluye una peregrinación al santuario para rendir homenaje a la Virgen."
+    },
+    {
+      fecha: "25 de octubre",
+      titulo: "Fundación de Bermejo",
+      descripcion: "Celebración de la fundación de la ciudad de Bermejo, una región importante por su producción agrícola y cercanía con Argentina."
+    }
+  ],
+  "Beni": [
+    {
+      fecha: "22 de enero",
+      titulo: "Fundación de San Ignacio de Moxos",
+      descripcion: "Fundación de San Ignacio de Moxos por los jesuitas, un hito histórico para Beni."
+    },
+    {
+      fecha: "4 de mayo",
+      titulo: "Fundación de Riberalta",
+      descripcion: "Celebración de la fundación de Riberalta, uno de los principales centros económicos de Beni."
+    },
+    {
+      fecha: "15 de agosto",
+      titulo: "Fiesta de la Virgen de la Asunción",
+      descripcion: "Festividad religiosa en honor a la Virgen de la Asunción, patrona de Trinidad."
+    },
+    {
+      fecha: "24 de septiembre",
+      titulo: "Día de la Bandera Beniana",
+      descripcion: "Celebración de la creación de la bandera del departamento de Beni, con actos cívicos."
+    },
+    {
+      fecha: "18 de noviembre de 1842",
+      titulo: "Fundación de la ciudad de Trinidad",
+      descripcion: "Conmemoración de la fundación de Trinidad, capital de Beni, una de las principales fechas cívicas del departamento."
+    },
+    {
+      fecha: "3 de diciembre de 1842",
+      titulo: "Creación del Departamento de Beni",
+      descripcion: "Celebración de la creación del departamento de Beni, siendo Trinidad su capital."
+    },
+  ],
+  "Pando": [
+    {
+      fecha: "14 de enero",
+      titulo: "Fundación de Porvenir",
+      descripcion: "Celebración de la fundación de Porvenir, una localidad estratégica en Pando."
+    },
+    {
+      fecha: "9 de febrero de 1906",
+      titulo: "Fundación de Cobija",
+      descripcion: "Cobija fue fundada el 9 de febrero de 1906, un paso importante en la soberanía boliviana en la región amazónica."
+    },
+    {
+      fecha: "18 de agosto",
+      titulo: "Fundación de Bolpebra",
+      descripcion: "Bolpebra, en la triple frontera entre Bolivia, Perú y Brasil, fue fundada el 18 de agosto de 1992 como símbolo de integración fronteriza."
+    },
+    {
+      fecha: "11 de septiembre de 1903",
+      titulo: "Batalla de Bahía",
+      descripcion: "Conmemoración de la defensa boliviana en la Batalla de Bahía durante la Guerra del Acre."
+    },
+    {
+      fecha: "11 de octubre de 1938",
+      titulo: "Creación del Departamento de Pando",
+      descripcion: "Conmemoración de la creación del departamento de Pando, separándose de Beni para convertirse en el noveno departamento de Bolivia."
+    },
   ]
 };
 
@@ -408,6 +533,54 @@ export const personajesRelevantes: PersonajesRelevantes = {
       nombre: "Bernardo Monteagudo",
       descripcion: "Bernardo Monteagudo fue un político y revolucionario nacido en Argentina que desempeñó un papel clave en las luchas independentistas del Alto Perú (actual Bolivia). Su participación en las guerras de independencia y su rol como ideólogo lo convirtieron en una figura influyente. Fue uno de los principales redactores de la constitución boliviana y su trabajo sentó las bases del sistema político del país.",
       imagen: "/characters/bernardo_monteagudo.webp"
+    }
+  ],
+  "Oruro": [
+    {
+      nombre: "Sebastián Pagador",
+      descripcion: "Considerado uno de los principales líderes del levantamiento del 10 de febrero de 1781 en Oruro, un precursor de las luchas independentistas en Sudamérica. Pagador encabezó una rebelión contra las autoridades coloniales españolas, marcando un hito en la historia de la resistencia boliviana.",
+      imagen: "/characters/sebastian_pagador.webp"
+    },
+    {
+      nombre: "Ildefonso Murguía Anze",
+      descripcion: "Abogado, político y militar orureño, conocido por su papel en la Guerra del Pacífico. Lideró el Regimiento Murguía, formado por voluntarios orureños que defendieron Bolivia en la guerra. Fue también gobernador de Oruro y dejó un legado en la historia militar boliviana.",
+      imagen: "/characters/ildefonso_murguia.webp"
+    },
+    {
+      nombre: "José Ignacio Sanjinés",
+      descripcion: "Poeta y político orureño, reconocido por escribir la letra del Himno Nacional de Bolivia en 1851. Su obra literaria y su participación en la política lo convierten en un representante clave de la cultura y el patriotismo boliviano.",
+      imagen: "/characters/jose_sanjines.webp"
+    },
+    {
+      nombre: "Eduardo Abaroa",
+      descripcion: "Héroe de la Guerra del Pacífico, Abaroa es recordado por su defensa del territorio boliviano en la Batalla del Topáter. Su frase '¿Rendirme yo? ¡Que se rinda su abuela!' se ha convertido en un símbolo de patriotismo en Bolivia.",
+      imagen: "/characters/eduardo_abaroa.webp"
+    }
+  ],
+  "Tarija": [
+    {
+      nombre: "Eustaquio 'El Moto' Méndez",
+      descripcion: "Líder guerrillero de la independencia en Tarija, conocido por su valentía en la lucha contra las fuerzas españolas. A pesar de haber perdido un brazo, continuó luchando, lo que le valió el apodo de 'Moto'. Su resistencia fue clave en la independencia del sur boliviano.",
+      imagen: "/characters/moto_mendez.webp"
+    },
+    {
+      nombre: "Juana Azurduy de Padilla",
+      descripcion: "Heroína de la independencia que también luchó en la región de Tarija, liderando guerrillas junto a su esposo Manuel Ascencio Padilla. Su valentía y liderazgo en la lucha contra las fuerzas realistas la han convertido en un ícono del patriotismo.",
+      imagen: "/characters/juana_azurduy_tarija.webp"
+    }
+  ],
+  "Beni": [
+    {
+      nombre: "Joaquín de la Pezuela",
+      descripcion: "Militar y político que se destacó en la historia del Beni, donde fue gobernador. Defensor de los derechos de los indígenas, centró su administración en el desarrollo agrícola y ganadero, mejorando las condiciones de vida en la región.",
+      imagen: "/characters/joaquin_de_la_pezuela.webp"
+    }
+  ],
+  "Pando": [
+    {
+      nombre: "José Manuel Pando",
+      descripcion: "Presidente de Bolivia (1904-1905), promovió el desarrollo de la región amazónica, incluido Pando. Su administración impulsó proyectos de infraestructura y educación en la región, buscando mejorar las condiciones de vida de las comunidades indígenas y campesinas.",
+      imagen: "/characters/jose_manuel_pando.webp"
     }
   ]
 };

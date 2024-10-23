@@ -10,7 +10,8 @@ const Footer = () => {
         </Link>
       </div>
       <div>
-        Desarrollado por <a href="https://sauterdev.vercel.app/" target="_blank" rel="noopener noreferrer" className="">Sauterdev</a>
+        Desarrollado por <a href="https://sauterdev.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-semibold" aria-label="Luis Gabriel Janco" aria-hidden="false" aria-roledescription="Desarrollador Web" aria-describedby="Luis Gabriel Janco"
+        >Luis Gabriel Janco</a>
       </div>
     </footer>
   )

@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className="text-2xl lg:text-4xl font-bold text-slate-800">Un viaje por la diversidad, historia y cultura del corazón de Sudamérica</h2>
         </section>
 
-        <Carousel className="w-full max-w-6xl mx-auto mb-6">
+        <Carousel className="w-full max-w-7xl mx-auto mb-6" autoFocus>
           <CarouselContent>
             {[
               { src: "/la-paz.webp", alt: "La Paz", caption: "La Paz - Donde el cielo toca la tierra" },
@@ -409,23 +409,25 @@ export default function Home() {
 
         <section className="space-y-4 my-6 text-slate-800">
           <h2 className="text-3xl font-bold text-center">Explora Más de Bolivia</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { title: "Fechas Cívicas", description: "Descubre las celebraciones más importantes de Bolivia", image: "/fechas-civicas.webp", to: '/fechas-civicas-de-bolivia' },
-              { title: "Mitos y Leyendas", description: "Sumérgete en las historias que dan vida a la cultura boliviana", image: "/mitos-leyendas.webp", to: '/mitos-leyendas-de-bolivia' },
-              { title: "Personajes Históricos", description: "Conoce a las figuras que moldearon la historia de Bolivia", image: "/personajes.webp", to: '/personajes-de-bolivia' }
+              { title: "Fechas Cívicas", description: "Descubre las celebraciones más importantes de Bolivia y su significado histórico y cultural", image: "/fechas-civicas.webp", to: '/fechas-civicas-de-bolivia' },
+              // { title: "Mitos y Leyendas", description: "Sumérgete en las historias que dan vida a la cultura boliviana", image: "/mitos-leyendas.webp", to: '/mitos-leyendas-de-bolivia' },
+              { title: "Personajes Históricos", description: "Conoce a las figuras que moldearon la historia de Bolivia y su legado. ¿Quiénes son los personajes más importantes de Bolivia?", image: "/personajes.webp", to: '/personajes-de-bolivia' }
             ].map((item, index) => (
-              <Card key={index} className="overflow-hidden relative justify-between">
+              <Card key={index} className="overflow-hidden relative grid md:grid-cols-2">
                 <Image src={item.image} alt={item.title} width={200} height={200} className="w-full h-fit object-cover shrink-0 relative" />
-                <CardHeader>
-                  <CardTitle>{item.title}</CardTitle>
-                  <CardDescription>{item.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link href={item.to} className="w-full bg-green-700 flex flex-row items-center text-white px-4 py-2 rounded-lg text-center justify-between hover:bg-green-800">
-                    Descubrir <ChevronRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </CardContent>
+                <div className="flex flex-col justify-between">
+                  <CardHeader>
+                    <CardTitle>{item.title}</CardTitle>
+                    <CardDescription>{item.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Link href={item.to} className="w-full bg-green-700 flex flex-row items-center text-white px-4 py-2 rounded-lg text-center justify-between hover:bg-green-800">
+                      Descubrir <ChevronRight className="ml-2 h-4 w-4" />
+                    </Link>
+                  </CardContent>
+                </div>
               </Card>
             ))}
           </div>

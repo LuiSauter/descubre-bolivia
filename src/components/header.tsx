@@ -7,7 +7,7 @@ import { Search, X } from "lucide-react"
 import { Input } from "./ui/input"
 import { useState } from "react"
 import useSearchData from "@/hook/useSearchData"
-import { fechasCivicas, mitosLeyendas } from "@/assets/data";
+import { fechasCivicas, mitosLeyendas, PersonajeRelevante } from "@/assets/data";
 
 const Header = (): JSX.Element => {
   const [searchTerm] = useState('');
@@ -34,17 +34,17 @@ const Header = (): JSX.Element => {
             {query.length > 0 && (
               <div className="absolute bg-white p-4 rounded-lg shadow-2xl z-10 max-h-[50vh] overflow-y-auto w-[50vw] border mt-2">
                 <div>
-                  {Object.keys(filteredData.mitosLeyendas).length === 0 ? (
-                    <p>No se encontraron mitos o leyendas.</p>
+                  {Object.keys(filteredData.personajes).length === 0 ? (
+                    <p>No se encontraron personajes.</p>
                   ) : (
-                    Object.keys(filteredData.mitosLeyendas).map((region) => (
+                    Object.keys(filteredData.personajes).map((region) => (
                       <div key={region}>
-                        <h3>{region}</h3>
+                        <h3 className="">{region}</h3>
                         <ul>
-                          {filteredData.mitosLeyendas[region].map((item, index) => (
+                          {filteredData.personajes[region].map((item: PersonajeRelevante, index: number) => (
                             <li key={index}>
-                              <Link href={`/mitos-leyendas-de-bolivia?region=${region}#${item.titulo}`} className="hover:bg-green-100 px-4 py-2 w-full flex flex-col">
-                                <strong>{item.titulo}</strong>
+                              <Link href={`/personajes-de-bolivia?region=${region}#${item.nombre}`} className="hover:bg-green-100 px-4 py-2 w-full flex flex-col">
+                                <strong>{item.nombre}</strong>
                                 <div>{item.descripcion.length > 100 ? item.descripcion.substring(0, 100) + "..." : item.descripcion}</div>
                               </Link>
                             </li>
@@ -55,7 +55,7 @@ const Header = (): JSX.Element => {
                   )}
                 </div>
 
-                <div>
+                <div className="border-t pt-2">
                   {Object.keys(filteredData.fechasCivicas).length === 0 ? (
                     <p>No se encontraron fechas cívicas.</p>
                   ) : (
@@ -88,9 +88,9 @@ const Header = (): JSX.Element => {
         <li>
           <Link href="/fechas-civicas-de-bolivia">Fechas cívicas</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/mitos-leyendas-de-bolivia">Leyendas y Mitos</Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/personajes-de-bolivia">Personajes</Link>
         </li>
@@ -110,9 +110,9 @@ const Header = (): JSX.Element => {
             <li className="px-4 py-2 hover:bg-green-700/20 rounded-md">
               <Link href="/fechas-civicas-de-bolivia">Fechas cívicas</Link>
             </li>
-            <li className="px-4 py-2 hover:bg-green-700/20 rounded-md">
+            {/* <li className="px-4 py-2 hover:bg-green-700/20 rounded-md">
               <Link href="/mitos-leyendas-de-bolivia">Leyendas y Mitos</Link>
-            </li>
+            </li> */}
             <li className="px-4 py-2 hover:bg-green-700/20 rounded-md">
               <Link href="/personajes-de-bolivia">Personajes</Link>
             </li>

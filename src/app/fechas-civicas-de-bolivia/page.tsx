@@ -70,7 +70,7 @@ export default function Fechas({ searchParams }: {
                 <div id={fecha.titulo} key={index} className="mb-4 p-4 bg-secondary rounded-lg">
                   <div className="flex flex-row gap-2 items-center text-slate-800">
                     <Calendar size={24} className="mb-2" />
-                    <Badge variant="outline" className="mb-2">
+                    <Badge variant={fecha.fecha === 'Movible' ? "secondary" : "default"} className="mb-2">
                       {fecha.fecha}
                     </Badge>
                   </div>

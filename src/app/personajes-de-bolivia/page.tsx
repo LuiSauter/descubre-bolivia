@@ -62,7 +62,7 @@ export default function PersonajesRelevantesPage({ searchParams }: { searchParam
 
         <div className="flex flex-col gap-6">
           {personajesRelevantes[searchParams?.region || departamentoSeleccionado]?.map((personaje, index) => (
-            <Card key={index} id={personaje.nombre} className="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+            <Card key={index} id={personaje.nombre} className="grid grid-cols-1 lg:grid-cols-[1fr_200px]  xl:grid-cols-[1fr_300px] xl:h-[300px] overflow-hidden">
               <CardHeader className="pb-0 mb-2">
                 <CardTitle className="">
                   <Badge variant="default" className="mb-2">
@@ -70,16 +70,23 @@ export default function PersonajesRelevantesPage({ searchParams }: { searchParam
                   </Badge>
                   <div className="font-semibold text-lg mb-1">{personaje.nombre}</div>
                 </CardTitle>
-                <CardDescription>{personaje.descripcion}</CardDescription>
+                <CardDescription className="z-20">{personaje.descripcion}</CardDescription>
               </CardHeader>
-              <CardContent className="p-0 m-0">
+              <CardContent className="p-0 m-0 relative h-[500px] lg:h-fit xl:h-full w-full">
                 {/* Añadir la imagen del personaje */}
                 <Image
                   src={personaje.imagen}
                   alt={personaje.nombre}
                   width={300}
-                  height={300}
-                  className="w-full h-[300px] object-cover"
+                  height={400}
+                  className="lg:w-fit w-full xl:h-full lg:h-[400px] h-full object-cover xl:object-contain z-10 absolute inset-0 ml-auto"
+                />
+                <Image
+                  src={personaje.imagen}
+                  alt={personaje.nombre}
+                  width={300}
+                  height={400}
+                  className="lg:w-fit w-full lg:h-[300px] object-cover absolute inset-0 blur-3xl opacity-75"
                 />
               </CardContent>
             </Card>

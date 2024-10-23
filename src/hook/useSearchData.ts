@@ -1,4 +1,4 @@
-import { FechasCivicas, MitosLeyendas } from '@/assets/data';
+import { FechasCivicas, MitosLeyendas, personajesRelevantes, PersonajesRelevantes } from '@/assets/data';
 import { useState, useMemo } from 'react';
 
 // Hook para buscar en mitos, leyendas, y fechas cívicas
@@ -12,10 +12,10 @@ const useSearchData = (
   const filteredData = useMemo(() => {
     const lowercasedQuery = query.toLowerCase();
 
-    const filterMitosLeyendas = (): MitosLeyendas => {
-      return Object.keys(mitosLeyendas).reduce((acc: MitosLeyendas, region: string) => {
-        const filteredItems = mitosLeyendas[region].filter(item =>
-          item.titulo.toLowerCase().includes(lowercasedQuery) ||
+    const filterPersonajes = (): PersonajesRelevantes => {
+      return Object.keys(personajesRelevantes).reduce((acc: PersonajesRelevantes, region: string) => {
+        const filteredItems = personajesRelevantes[region].filter(item =>
+          item.nombre.toLowerCase().includes(lowercasedQuery) ||
           item.descripcion.toLowerCase().includes(lowercasedQuery)
         );
         if (filteredItems.length > 0) {
@@ -39,10 +39,10 @@ const useSearchData = (
     };
 
     return {
-      mitosLeyendas: filterMitosLeyendas(),
+      personajes: filterPersonajes(),
       fechasCivicas: filterFechasCivicas()
     };
-  }, [query, mitosLeyendas, fechasCivicas]);
+  }, [query, fechasCivicas]);
 
   return {
     query,
